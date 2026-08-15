@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "chunkfinder",
+  "version": "3.0",
+  "name": "ChunkFinder",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.kingsmp.chunkfinder.ChunkFinderMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": ">=0.102.0",
+    "minecraft": "1.21.1"
+  }
+}
